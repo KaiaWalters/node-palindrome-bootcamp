@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+
+}
+html{
+  padding-top: 0;
+}
+
+body{
+  padding-left: 20px;
+  padding-right: 0;
+  padding-top: 0;
+  background-color: rgb(237,240,245);
+}
+
+header{
+
+  clear:both;
+  font-size: 7em;
+  float: left;
+  padding: 10% 5% 0 0;
+  width:50%;
+}
+header span>span{
+  font-style: italic;
+}
+header p{
+  font-size: .2em;
+  padding-right: 30px;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 10px 0 0 0;
+    padding: 0;
+    width: 70%;
+}
+
+.right{
+  background-color: white;
+  height: 730px;
+  float: left;
+  width: 50%;
+  padding-top: 5%;
+}
+
+.textSubmission {
+  float: left;
+  /* height: 200px; */
+  margin: auto;
+  padding: 0 5% 5% 11%;
+  width: 100%;
+}
+
+input{
+  margin: 60px 0 0 0;
+  height:30px;
+  align-items: center;
+  width: 80%;
+}
+
+button{
+  padding: 7px;
+  background-color: #b0c4f7;
+  border-color: #b0c4f7;
+  border-radius: 3%;
+}
+
+.appResponse{
+
+  float: left;
+  height: 400px;
+  margin: auto;
+  padding: 0 2% 0 10%;
+  text-align: center;
+  width: 100%;
+
+}
+
+#img {
+  height: 210px;
+  width: 210px;
+  float: right;
+  margin: 0 0 0 0;
+
+}
+
+
+#response{
+  margin-top: 130px;
+  font-size: 2em;
+  text-align: center;
+
+}
